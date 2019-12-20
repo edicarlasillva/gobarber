@@ -1,6 +1,6 @@
 // Importar o express
-const express = require('express');
-const routes = require('./routes');
+import express from "express";
+import routes from "./routes";
 
 class App {
   // Método chamado automaticamente quando a classe app for instanciada
@@ -20,4 +20,4 @@ class App {
   }
 }
 
-module.exports = new App().server;
+export default new App().server;

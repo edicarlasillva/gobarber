@@ -2,10 +2,15 @@
   "name": "gobarber",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/edicarlasillva/gobarber.git",
-  "author": "Edicarla Sillva <edicarlasillva@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server"
+  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.19.2",
+    "sucrase": "^3.10.1"
   }
 }
